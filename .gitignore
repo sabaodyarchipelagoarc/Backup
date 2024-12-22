@@ -1,5 +1,9 @@
-echo "Config.Msi/" >> .gitignore
-echo "System Volume Information/" >> .gitignore
-echo "$RECYCLE.BIN/" >> .gitignore
-echo "pagefile.sys" >> .gitignore
-echo "*.log" >> .gitignore
+# Exclude node_modules
+node_modules/
+
+# Exclude all system files
+*.sys
+
+# Exclude other unnecessary files
+.DS_Store
+*.log
